@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1918120b2b.js" crossorigin="anonymous"></script>
+    <title>Tienda Fashion</title>
+</head>
+<body>
+
+        <div class="content">
+            <div class="content-nav">
+                <nav>
+                    <div class="logo">
+                        <img src="./img/logo.png" alt="Logo">
+                        <span>Fashion</span>
+                    </div>
+                    <div class="navigation">
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="#">Productos</a></li>
+                            <li><a href="#">Destacados</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="icons-nav">
+                        <ul>
+                            <li class="list-nav"><i id="menu-icon" class="fa-solid fa-list"></i></li>
+                            <li><i id="search-icon" class="fa-solid icons-nav1 fa-magnifying-glass"></i></li>
+                            <li><i class="fa-solid icons-nav2 fa-cart-shopping"></i></li>
+                            <li><i class="fa-solid icons-nav3 fa-heart"></i></li>
+                        </ul>
+
+                        <div class="search" id="search">
+                            <div>
+                                <input type="text" placeholder="Buscar Aqui...">
+                                 <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <!--  Start Tooggle menu the nav  -->
+
+                <div id="navigation-toogle" class="navigation-toogle">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Destacados</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <!--  End Tooggle menu the nav  -->
+
+            </div>
+
+            <section>
+                <!-- START slider menu -->
+
+                <div class="content-slider-menu">
+
+                    <div id="slider-menu-1" class="slider-menu opacity1-default">
+                        <div class="flex-slider-menu">
+                            <div class="text-slider-menu">
+                                <span>Descuentos desde 50%</span>
+                                <h2>Modas de Adolecentes</h2>
+                                <button>Compra Ahora</button>
+                            </div>
+                            <div class="img-slider-menu">
+                                <div style="z-index: 10; position: relative"><img src="./img/img1.png" alt="imagen"></div>
+                                <div class="circle-slider"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="slider-menu-2" class="slider-menu" style="background-color: rgb(203 182 126);">
+                        <div class="flex-slider-menu">
+                            <div class="text-slider-menu">
+                                <span>La mejor calidad en Fashion</span>
+                                <h2>Modas de Niños</h2>
+                                <button>Compra Ahora</button>
+                            </div>
+                            <div class="img-slider-menu">
+                                <div style="z-index: 10; position: relative"><img src="./img/img2.png" alt="imagen"></div>
+                                <div style="background-color: #c3ad6f;" class="circle-slider"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="slider-menu-3" class="slider-menu" style="background-color: rgb(126 175 203);">
+                        <div class="flex-slider-menu">
+                            <div class="text-slider-menu">
+                                <span>Descuentos desde 80%</span>
+                                <h2>Uniformes de Futbol</h2>
+                                <button>Compra Ahora</button>
+                            </div>
+                            <div class="img-slider-menu">
+                                <div style="z-index: 10; position: relative"><img src="./img/img3.png" alt="imagen"></div>
+                                <div style="background-color: rgb(107 154 181);" class="circle-slider"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="menu-slider-home arrows-slider-home-left">
+                        <li><a onclick="quitarDefaultTargetSlider();" href="#slider-menu-1">1</a></li>
+                        <li><a onclick="quitarDefaultTargetSlider();" href="#slider-menu-2">2</a></li>
+                        <li><a onclick="quitarDefaultTargetSlider();" href="#slider-menu-3">3</a></li>
+                    </ul>
+                </div>
+
+                <!-- END slider menu -->
+
+                 <!-- START content descuentos -->
+
+                    <div>
+                        <ul class="content-ul-descuentos">
+                            <li class="li-descuentos-1" style="margin-left: 20px;">
+                                <div class="box-descuentos">
+                                    <div class="img-descuentos hover-descuentos-img-1">
+                                        <img src="./img/img4.png" alt="img">
+                                    </div> 
+                                    <div class="text-descuentos">
+                                        <span>Super Descuento</span>
+                                        <h2>Hasta 50%</h2>
+                                        <button>Compra Ahora</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="li-descuentos-2" style="background-color: #a7c3cf;">
+                                <div class="box-descuentos">
+                                    <div class="img-descuentos  hover-descuentos-img-2">
+                                        <img src="./img/img5.png" alt="img">
+                                    </div> 
+                                    <div class="text-descuentos">
+                                        <span>Super Descuento</span>
+                                        <h2>Hasta 50%</h2>
+                                        <button>Compra Ahora</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                  <!-- END content descuentos -->
+
+
+                  <!-- START Exclusive productos -->
+
+                    <div class="content-exclusive">
+                        <h2><span style="color: #1e1ead">Productos</span> Exclusivos</h2>
+                        <ul class="menu-exclusive">
+                            <li class="menu-exclusiveDefault" id="link-exclusive1"><a onclick="quitarDefaultTargetExclusive(); showCardTodos();" href="#link-exclusive1">Todos</a></li>
+                            <li id="link-exclusive2"><a onclick="quitarDefaultTargetExclusive(); showCardLlegados();" href="#link-exclusive2">recién llegados</a></li>
+                            <li id="link-exclusive3"><a onclick="quitarDefaultTargetExclusive(); showCardEspecial();" href="#link-exclusive3">oferta especial</a></li>
+                            <li id="link-exclusive4"><a onclick="quitarDefaultTargetExclusive(); showCardDestacados();" href="#link-exclusive4">destacados</a></li>
+                        </ul>
+                        <div id="content-exclusive-card" class="content-exclusive-card">
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul>
+                                    </div>
+                                    <img src="./img/img7.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul>
+                                    </div>
+                                    <img src="./img/img8.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul>
+                                    </div>
+                                    <img src="./img/img9.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul>
+                                    </div>
+                                    <img src="./img/img6.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul>
+                                    </div>
+                                    <img src="./img/img10.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul>
+                                    </div>
+                                    <img src="./img/img11.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul>
+                                    </div>
+                                    <img src="./img/img12.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <img src="./img/img13.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                  <!-- END Exclusice productos -->
+
+                    <!-- START widget -->
+
+                    <div class="content-widget">
+                        <div class="display-widgets">
+                            <div class="content-img-widgets">
+                                <img src="./img/img14.png" alt="imagen">
+                            </div>
+                            <div class="text-widget">
+                                <span>Nuevas Tendencias</span>
+                                <h4>Mejor Colecion Del Invierno</h4>
+                                <span>Desceuntos Hasta 50% off</span>
+                                <button class="buttonBuy">Compra Ahora</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- END widget -->
+
+                    <!-- START Slider Product -->
+
+                    <div class="content-slider-product">
+                        <h2><span style="color: #1e1ead">Productos </span>Destacados</h2>
+
+                    <div style="position: relative;">
+                        <i id="left" class="row-left fa-solid fa-chevron-left"></i>
+                        <i id="right" class="row-right fa-solid fa-chevron-right"></i>
+                        <div class="slider-product">
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <img src="./img/img13.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <img src="./img/img13.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <img src="./img/img13.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <img src="./img/img13.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <img src="./img/img2.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <img src="./img/img9.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <img src="./img/img10.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <img src="./img/img11.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <img src="./img/img12.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-exclusive">
+                                <div class="overflow-card" style="background: #f7f9f8; position: relative;">
+                                    <div class="hover-more-card-exclusive">
+                                        <ul>
+                                            <li><i style="color: #87d6f0;" class="fa-solid fa-eye"></i></li>
+                                            <li><i style="color: gainsboro;" class="fa-solid fa-cart-shopping"></i></li>
+                                            <li><i style="color: #c63535;" class="fa-solid fa-heart"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <img src="./img/img13.png" alt="imagen">
+                                </div>
+                                <div class="text-card-exclusive">
+                                    <h3>Nombre Producto</h3>
+                                    <h4>$20.000 <del style="text-decoration: revert;">$25.000</del> 20% off</h4>
+                                    <div class="valoracion">
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-star"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- END Slider Product -->
+
+                    <!-- START Contacto -->
+
+                    <div class="content-contacto">
+                        <h2><span style="color: #1e1ead">Contacto </span> De Fashion</h2>
+                        <div style="justify-content: center;display: flex;">
+                            <div class="content-icon-contacto">
+                                <div class="card-contacto">
+                                    <i style="color:#c63535" class="fa-solid fa-location-dot"></i>
+                                    <h4>Direccion</h4>
+                                    <span>Piedecuesta - Santander</span>
+                                </div>
+                                <div class="card-contacto">
+                                    <i style="color:#c3ad6f" class="fa-solid fa-envelope"></i>
+                                    <h4>Correo</h4>
+                                    <span>cavirey@gmail.com</span>
+                                </div>
+                                <div class="card-contacto">
+                                    <i style="color:#1e1ead" class="fa-solid fa-phone"></i>
+                                    <h4>Numero Telefonico</h4>
+                                    <span>+57 999999</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-contact-2">
+                            <div class="formulario">
+                                <h3>Formulario</h3>
+                                <form action="">
+                                    <div>
+                                        <input type="text" placeholder="Nombre">
+                                        <input type="text" placeholder="Correo">
+                                    </div>
+                                    <div>
+                                        <input type="text" placeholder="Numero">
+                                        <input type="text" placeholder="Asunto">
+                                    </div>
+                                    <div>
+                                        <textarea cols="20" rows="10" placeholder="Mensaje..."></textarea>
+                                    </div>
+                                    <button class="btn-contacto">Enviar Mensaje</button>
+                                </form>
+                            </div>
+                            <div class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.10669869072!2d-73.04905818522657!3d6.996714094945746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e684706d2ff3a89%3A0xdd0f8717fdccf2a2!2sInstituci%C3%B3n%20Educativa%20Carlos%20Vicente%20Rey!5e0!3m2!1ses!2sco!4v1661103119689!5m2!1ses!2sco" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- END Contacto -->
+                
+            </section>
+        
+            <footer class="footer">
+                <div class="footer__addr">
+                  <h1 class="footer__logo">Fashion</h1>
+              
+                  <h2>Contacto</h2>
+              
+                  <address>
+                    Piedecuesta - Santander<br>
+              
+                    <a class="footer__btn" href="mailto:example@gmail.com">Email</a>
+                  </address>
+                </div>
+              
+                <ul class="footer__nav">
+                  <li class="nav__item">
+                    <h2 class="nav__title">Ropa</h2>
+              
+                    <ul class="nav__ul">
+                      <li>
+                        <a href="#">Vestidos</a>
+                      </li>
+              
+                      <li>
+                        <a href="#">Zapatos</a>
+                      </li>
+              
+                      <li>
+                        <a href="#">Gafas</a>
+                      </li>
+                    </ul>
+                  </li>
+              
+                  <li class="nav__item nav__item--extra">
+                    <h2 class="nav__title">Sombreros</h2>
+              
+                    <ul class="nav__ul nav__ul--extra">
+                      <li>
+                        <a href="#">Medias</a>
+                      </li>
+              
+                      <li>
+                        <a href="#">Ropa Interior</a>
+                      </li>
+              
+                      <li>
+                        <a href="#">Bolsos</a>
+                      </li>
+              
+                      <li>
+                        <a href="#">Collares</a>
+                      </li>
+              
+                      <li>
+                        <a href="#">Guantes</a>
+                      </li>
+              
+                      <li>
+                        <a href="#">Gorros</a>
+                      </li>
+                    </ul>
+                  </li>
+              
+                  <li class="nav__item">
+                    <h2 class="nav__title">Legal</h2>
+              
+                    <ul class="nav__ul">
+                      <li>
+                        <a href="#">Privacy Policy</a>
+                      </li>
+              
+                      <li>
+                        <a href="#">Terms of Use</a>
+                      </li>
+              
+                      <li>
+                        <a href="#">Sitemap</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              
+                <div class="legal">
+                  <p>&copy; 2022 Fashion. Todos los derechos reservados.</p>
+              
+                  <div class="legal__links">
+                  </div>
+                </div>
+              </footer>
+        </div>
+        
+<script src="app.js"></script>
+</body>
+</html>
