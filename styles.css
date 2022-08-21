@@ -138,6 +138,7 @@ nav {
     transition: left .5s linear 0.2s;
     left: 100vw;
     display: none;
+    z-index: 999999999999;
 }
 
 .toogle-left-menu{
@@ -568,12 +569,12 @@ button:nth-child(5):hover ~ button {
     height: 100%;
     background-color: #080704c4;
     border-radius: 5px 5px 0 0;
-    transition: scale .3s;
-    scale: 0;
+    transition: transform .3s;
+    transform: scale(0);
 }
 
 .card-exclusive:hover .hover-more-card-exclusive{
-    scale: 1;
+    transform: scale(1);
 }
 
 .hover-more-card-exclusive ul{
